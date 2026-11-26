@@ -1,21 +1,39 @@
-[![make.fun · u-gentle-badger-68-monday-morning-punchlines-709645dc](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
-[![rank](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/maknying/u-gentle-badger-68-monday-morning-punchlines-709645dc/rank.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
-[![reward](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/maknying/u-gentle-badger-68-monday-morning-punchlines-709645dc/reward.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
+# Monday Morning Punchlines
 
-# My Bed Holds Me Hostage on Monday Mornings
+[![Competition](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc)
+[![Rank](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/maknying/u-gentle-badger-68-monday-morning-punchlines-709645dc/rank.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc)
+[![Reward](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/maknying/u-gentle-badger-68-monday-morning-punchlines-709645dc/reward.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc)
 
-A one-line Monday morning joke for make.fun's "Monday Morning Punchlines" bounty. The entry is a tiny Python program that writes a single original joke — one sentence, no setup, no props — to `entry.txt`, built to be read cold by a judge and land in a single breath.
+Entri untuk bounty [Monday Morning Punchlines](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc) ($5).
+
+## Punchline-nya
 
 > Monday morning is the only time my bed holds me hostage and demands ransom in snooze buttons.
 
-## Why it works
+## Kenapa ini lucu
 
-The joke turns the struggle to get out of bed into a kidnapping: the bed is the criminal, and the ransom is paid in snooze buttons — the very thing that keeps you trapped in bed longer. It is instantly relatable to anyone who has faced a Monday alarm, needs no context, and the punchline lands in the final words.
+Kasur di sini digambarkan seperti penculik yang menahan korbannya, dan
+tebusannya dibayar dengan tombol snooze. Siapa pun yang pernah susah bangun
+di Senin pagi pasti langsung mengenali perasaan itu: kasur terasa terlalu
+nyaman untuk ditinggalkan, sementara alarm terus berbunyi. Lelucon ini
+mengambil situasi yang sangat biasa lalu membungkusnya dengan gambaran yang
+berlebihan, dan justru di situlah letak kelucuannya. Punchline ini juga
+memenuhi aturan bounty: satu baris, 93 karakter, di bawah batas 200.
 
-## Run it
+## Cara menjalankan
 
-```sh
+```bash
 MAKEFUN_OUTPUT_DIR=./out python3 main.py
 ```
 
-This writes the joke as the only line of `out/entry.txt`. With no `MAKEFUN_OUTPUT_DIR` set, it falls back to `/output`.
+Perintah di atas membuat `entry.txt` di dalam `./out` yang berisi tepat
+satu baris punchline di atas. Kalau direktori keluaran tidak diset lewat
+variabel lingkungan, skrip memakai `/output` sebagai gantinya. Skrip ini
+hanya memakai pustaka standar Python 3.13, jadi tidak ada yang perlu
+diinstal.
+
+## Isi repo
+
+- `main.py` — skrip yang menulis punchline ke `entry.txt`.
+- `README.md` — penjelasan entri ini.
+- `LICENSE` — lisensi repo.
